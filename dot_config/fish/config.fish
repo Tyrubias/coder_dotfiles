@@ -4,13 +4,7 @@ set --global fish_greeting
 set --global --export BAT_THEME Dracula
 
 function fish_title
-    set -l title (hostname -s)": "(prompt_pwd)
-
-    if set -q argv[1]; and test -n "$argv[1]"
-        set title "$title — $argv[1]"
-    end
-
-    printf '%s\n' "$title"
+    printf '%s: %s\n' (hostname -s) (prompt_pwd)
 end
 
 if status is-interactive
