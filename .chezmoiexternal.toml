@@ -1,0 +1,15 @@
+[".tmux/plugins/tpm"]
+    type = "archive"
+    url = "https://github.com/tmux-plugins/tpm/archive/master.tar.gz"
+    exact = true
+    stripComponents = 1
+[".tmux/plugins/tmux"]
+    type = "archive"
+    url = "https://github.com/dracula/tmux/archive/master.tar.gz"
+    exact = true
+    stripComponents = 1
+[".tmux/plugins/tmux-sensible"]
+    type = "archive"
+    url = "https://github.com/tmux-plugins/tmux-sensible/archive/master.tar.gz"
+    exact = true
+    stripComponents = 1

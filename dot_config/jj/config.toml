@@ -1,0 +1,11 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[templates]
+git_push_bookmark = '"victor/push-" ++ change_id.short()'
+
+[ui]
+diff-formatter = ["difft", "--color=always", "$left", "$right"]
+
+[user]
+name = "Victor Song"
+email = "victor@chalk.ai"
